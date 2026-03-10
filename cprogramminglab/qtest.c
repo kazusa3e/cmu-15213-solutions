@@ -446,7 +446,7 @@ bool do_show(int argc, char *argv[]) {
     return show_queue(0);
 }
 
-static void queue_init() {
+static void queue_init(void) {
     fail_count = 0;
     q = NULL;
 }
